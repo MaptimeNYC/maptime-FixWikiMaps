@@ -1,6 +1,7 @@
 ## Collaborative Cartography Night: [FixWikiMaps](http://fixwikimaps.tumblr.com)
 
-October 7th, 2015 MaptimeNYC
+October 7th, 2015  
+MaptimeNYC
 
 **Summary:** Tonight we will be working together in groups to make maps on Wikimedia more beautiful.  We will be channeling the varied talents of all the awesome people at the meetup to talk about map making and design.  
 
