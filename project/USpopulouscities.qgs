@@ -18,9 +18,9 @@
     <units>degrees</units>
     <extent>
       <xmin>-140.11386756133001086</xmin>
-      <ymin>19.50513007775384366</ymin>
+      <ymin>19.50513007775384011</ymin>
       <xmax>-30.04609442829422505</xmax>
-      <ymax>74.56878233354255769</ymax>
+      <ymax>74.56878233354254348</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
