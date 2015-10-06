@@ -6,10 +6,10 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="populousCities20151005200150117" name="populousCities">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_110m_admin_1_states_provinces20151005200115013" name="ne_110m_admin_1_states_provinces">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_50m_admin_1_states_provinces_lakes20151005205641492" name="ne_50m_admin_1_states_provinces_lakes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_110m_admin_0_countries20151005200131444" name="ne_110m_admin_0_countries">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="ne_50m_admin_0_countries20151005205640836" name="ne_50m_admin_0_countries">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -17,10 +17,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-153.05338255762438848</xmin>
-      <ymin>17.2120514708157657</ymin>
-      <xmax>-42.98560942458861689</xmax>
-      <ymax>72.27570372660446196</ymax>
+      <xmin>-140.11386756133001086</xmin>
+      <ymin>19.50513007775384366</ymin>
+      <xmax>-30.04609442829422505</xmax>
+      <ymax>74.56878233354255769</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -41,9 +41,9 @@
   <visibility-presets/>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>ne_110m_admin_1_states_provinces20151005200115013</item>
-      <item>ne_110m_admin_0_countries20151005200131444</item>
       <item>populousCities20151005200150117</item>
+      <item>ne_50m_admin_0_countries20151005205640836</item>
+      <item>ne_50m_admin_1_states_provinces_lakes20151005205641492</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -52,14 +52,14 @@
         <legendlayerfile isInOverview="0" layerid="populousCities20151005200150117" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_110m_admin_1_states_provinces" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_50m_admin_1_states_provinces_lakes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ne_110m_admin_1_states_provinces20151005200115013" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="ne_50m_admin_1_states_provinces_lakes20151005205641492" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_110m_admin_0_countries" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_50m_admin_0_countries" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ne_110m_admin_0_countries20151005200131444" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="ne_50m_admin_0_countries20151005205640836" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -146,14 +146,14 @@
   </Composer>
   <projectlayers layercount="3">
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>ne_110m_admin_0_countries20151005200131444</id>
-      <datasource>../data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.json</datasource>
+      <id>ne_50m_admin_0_countries20151005205640836</id>
+      <datasource>../data/ne_50m_admin_0_countries.json</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>ne_110m_admin_0_countries</layername>
+      <layername>ne_50m_admin_0_countries</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -369,7 +369,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="155,216,165,255"/>
+              <prop k="color" v="68,170,151,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -724,14 +724,14 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>ne_110m_admin_1_states_provinces20151005200115013</id>
-      <datasource>../data/ne_110m_admin_1_states_provinces/ne_110m_admin_1_states_provinces.json</datasource>
+      <id>ne_50m_admin_1_states_provinces_lakes20151005205641492</id>
+      <datasource>../data/ne_50m_admin_1_states_provinces_lakes.json</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>ne_110m_admin_1_states_provinces</layername>
+      <layername>ne_50m_admin_1_states_provinces_lakes</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -752,10 +752,10 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="scalerank">
+        <edittype widgetv2type="TextEdit" name="featurecla">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="featurecla">
+        <edittype widgetv2type="TextEdit" name="scalerank">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="adm1_code">
@@ -878,7 +878,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="68,170,151,255"/>
+              <prop k="color" v="155,216,165,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -1041,10 +1041,10 @@
       <excludeAttributesWFS/>
       <attributeactions/>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="scalerank">
+        <edittype widgetv2type="TextEdit" name="featurecla">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="featurecla">
+        <edittype widgetv2type="TextEdit" name="scalerank">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="adm1_code">
@@ -1599,7 +1599,10 @@
                 <effect type="outerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1629,7 +1632,10 @@
                 <effect type="innerGlow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="3"/>
+                  <prop k="color1" v="0,0,255,255"/>
+                  <prop k="color2" v="0,255,0,255"/>
                   <prop k="color_type" v="0"/>
+                  <prop k="discrete" v="0"/>
                   <prop k="draw_mode" v="2"/>
                   <prop k="enabled" v="0"/>
                   <prop k="single_color" v="255,255,255,255"/>
@@ -1660,7 +1666,10 @@
           <effect type="outerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1690,7 +1699,10 @@
           <effect type="innerGlow">
             <prop k="blend_mode" v="0"/>
             <prop k="blur_level" v="3"/>
+            <prop k="color1" v="0,0,255,255"/>
+            <prop k="color2" v="0,255,0,255"/>
             <prop k="color_type" v="0"/>
+            <prop k="discrete" v="0"/>
             <prop k="draw_mode" v="2"/>
             <prop k="enabled" v="0"/>
             <prop k="single_color" v="255,255,255,255"/>
@@ -1727,10 +1739,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2129,10 +2141,12 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>ne_110m_admin_1_states_provinces20151005200115013</value>
-        <value>ne_110m_admin_0_countries20151005200131444</value>
+        <value>populousCities20151005200150117</value>
+        <value>ne_50m_admin_0_countries20151005205640836</value>
+        <value>ne_50m_admin_1_states_provinces_lakes20151005205641492</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
       </LayerSnappingEnabledList>
@@ -2141,14 +2155,17 @@
       <LayerSnappingToleranceUnitList type="QStringList">
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
