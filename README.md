@@ -15,5 +15,5 @@ We'll be trying out a few different options for making maps using open source st
 - *States*:  Natural Earth 1:50m Cultural Vectors- Admin 1 States, Provinces.  
 - *Cities*:  [OpenStreetMap](https://www.openstreetmap.org).  Accessed using [Overpass Turbo](http://overpass-turbo.eu/)
 
-#### Wikimap 2:  [Total Rainfalls During Hurricane Katrina](http://fixwikimaps.tumblr.com/post/119297655379/total-rainfalls-during-hurricane-katrina)
+#### Wikimap 2:  [Map of Louisiana's 64 Parishes](https://en.wikipedia.org/wiki/Police_Jury#/media/File:Louisiana_parishes_map_magnified.jpg)
 
