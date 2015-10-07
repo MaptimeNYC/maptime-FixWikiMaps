@@ -9,5 +9,11 @@ We'll be trying out a few different options for making maps using open source st
 
 
 
-#### Wikimap 1:  [Top Ten Populous Places in the USA](https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population#/media/File:United_States_Administrative_Divisions_Cities.svg)
+#### Wikimap 1:  [Top Ten Populous Places in the USA](https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population#/media/File:United_States_Administrative_Divisions_Cities.svg)  
+**Data**  
+- *Countries*:  [Natural Earth 1:50m Cultural Vectors](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/)- Admin 0 Countries.  
+- *States*:  Natural Earth 1:50m Cultural Vectors- Admin 1 States, Provinces.  
+- *Cities*:  [OpenStreetMap](https://www.openstreetmap.org).  Accessed using [Overpass Turbo](http://overpass-turbo.eu/)
+
+#### Wikimap 2:  [Total Rainfalls During Hurricane Katrina](http://fixwikimaps.tumblr.com/post/119297655379/total-rainfalls-during-hurricane-katrina)
 
