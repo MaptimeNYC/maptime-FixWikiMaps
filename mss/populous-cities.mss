@@ -1,4 +1,4 @@
-/** simple visualization */
+/** populous cities */
 
 #populouscities{
   marker-fill-opacity: 0.9;
@@ -27,23 +27,26 @@
   text-placement-type: dummy;
   text-placements: 'N,S';
     
-    [name='Philadelphia'] {
-      text-dy: 5;
-      text-dx: 3;
+  // tip: we can create custom label placement by
+  // hard coding x,y positions by refering to each city
+  // this will override the above label code
+  [name='Philadelphia'] {
+    text-dy: 5;
+    text-dx: 3;
   }
   
-    [name='New York'] {
-      text-dy: -5;
-      text-dx: 5;
+  [name='New York'] {
+    text-dy: -5;
+    text-dx: 5;
   }  
 
-    [name='Houston'] {
-      text-dy: -10;
-      text-dx: 0;
+  [name='Houston'] {
+    text-dy: -10;
+    text-dx: 0;
   }  
   
-    [name='San Antonio'] {
-      text-dy: 8;
-      text-dx: 8;
+  [name='San Antonio'] {
+    text-dy: 8;
+    text-dx: 8;
   }    
 }
